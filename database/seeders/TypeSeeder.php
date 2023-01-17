@@ -16,7 +16,7 @@ class TypeSeeder extends Seeder
      */
     public function run()
     {
-        $types = ['Pubblico', 'Privato', 'Misto'];
+        $types = ['Front-end', 'Back-end', 'Full-stack'];
 
         foreach ($types as $type) {
             $newType = new Type();
